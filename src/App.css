@@ -402,20 +402,16 @@ header {
 .web-development {
   height: 10rem;
   width: 30rem;
-  background-image: url('C:\Projects\portfolio\public\Assets\WEB_DEVELOPMENT.png');
+   
 }
 
 .data-science {
   height: 10rem;
   width: 30rem;
-  background-image: url('C:\Projects\portfolio\public\Assets\DATA_SCIENCE.png');
+   
 }
 
-.graphic-designing {
-  height: 10rem;
-  width: 30rem;
-  background-image: url('C:\Projects\portfolio\public\Assets\GRAPHIC_DESIGNING.png');
-}
+ 
 
 .work {
   display: flex;
