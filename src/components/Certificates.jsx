@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const images = ['accenture.png', 'cloud.png', 'dbms.png', 'excel-365.png', 'ds-365.png', 'coursera.png', 'cisco.png', 'hacker.png', 'simplilearn.png', 'udemy.png', 'unstop.png']; // Add more image file names here
+const images = ['ACCENTURE.png', 'CLOUD.png', 'DBMS.png', 'EXCEL-365.png', 'DS-365.png', 'COURSERA.png', 'CISCO.png', 'HACKER.png', 'SIMPLILEARN.png', 'UDEMY.png', 'UNSTOP.png']; // Add more image file names here
 
 function Certificates() {
   const [selectedImg, setSelectedImg] = useState(null);

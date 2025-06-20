@@ -3,6 +3,7 @@ import React from 'react'
 function Experience() {
   return (
     <div id="Experience">
+      
     <div>
        <div className='me'>
         <h1 className='about'> Experience</h1></div>
@@ -18,7 +19,17 @@ function Experience() {
   </a>
 </div>
 
-
+</div></div>
+        <div className='one'>
+        <div className='accenture'>
+         <h2 className='program'> Summer AI Internship</h2>
+         <h1 className='Company'>Edunet Foundation</h1>
+         <h3 className='duration'>April 2025-May 2025</h3>
+         <div className="cert-container">
+  <a href="https://drive.google.com/file/d/1sFro-WpKdu6JCFONX5jpmekjq73JHZgo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+    <button className="cert">View Certificate</button>
+  </a>
+</div>
         </div></div>
         <div className='one'>
         <div className='accenture'>

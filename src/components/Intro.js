@@ -12,7 +12,7 @@ function Intro() {
     <div>
       <div className='Name'>
         <div className='image'>
-          <img src='assets/prof.jpg' alt='My photo' />
+          <img src='assets/PROF.jpg' alt='My photo' />
         </div>
         <div className='matter'>
           <p className='p1'> Hello there I'm</p>
@@ -24,7 +24,7 @@ function Intro() {
                 className='btn-1'
                 onClick={() =>
                   window.open(
-                    'https://drive.google.com/file/d/1S5vS3U6a6-IhQz5SdaajDv456mOz2fYf/view?usp=sharing',
+                    'https://drive.google.com/file/d/12YXnXmPEbX_12mWiBT8AUipAMsbxTqwQ/view?usp=sharing',
                     '_blank'
                   )
                 }

@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className='box'>
       <div className='about-image'>
-        <img src='Assets/vvs.jpg'></img>
+        <img src='Assets/VVS.jpg'></img>
       </div>
       <div className='content'>
       I’m a 3rd-year B.Tech CSE-Data Science student with a passion for uncovering insights from data and building innovative solutions.

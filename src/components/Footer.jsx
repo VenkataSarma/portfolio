@@ -17,7 +17,7 @@ const Footer = () => {
         <h3 className="connect-title">Connect with me:</h3>
         <div className="social-links">
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/venkata-sarma-vedam-128020261/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
@@ -26,7 +26,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://instagram.com/yourprofile"
+            href="https://www.instagram.com/smiling_sarma_/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/VenkataSarma"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"

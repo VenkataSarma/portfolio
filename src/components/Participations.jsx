@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 
 const participationImages = [
-  'hacka.jpeg',
-  'hackat.jpg',
-  'hod.jpg',
-  'principal.jpg',
-  'thub.jpg',
-  'dsh.jpg',
-  'microsoft.jpg',
-  'praesto.jpg',
-  'vis.jpg',
-  'vis2.jpg',
-  'vis3.jpg'
+  'HACKA.jpeg',
+  'HACKAT.jpg',
+  'HOD.jpg',
+  'PRINCIPAL.jpg',
+  'THUB.jpg',
+  'DSH.jpg',
+  'MICROSOFT.jpg',
+  'PRAESTO.jpg',
+  'VIS.jpg',
+  'VIS2.jpg',
+  'VIS3.jpg'
    
   // Add more image file names stored in 'public/assets'
 ];
