@@ -1,4 +1,9 @@
 import React from 'react';
+import ball from './Assets/BALL.jpeg';
+import store from './Assets/STORE.png';
+import lang from './Assets/LANG.jpeg';
+import loan from './Assets/LOAN.jpeg';
+import pl from './Assets/P&L.png';
 
 function WebDevelopment() {
   return (
@@ -13,7 +18,7 @@ function WebDevelopment() {
             It includes data collection, cleaning, and visualization to identify trends and key metrics like batting averages and strike rates. 
             Advanced analytics such as predictive modeling forecast match outcomes and player performances. 
             The final dashboard enables fans and analysts to explore interactive visualizations and gain data-driven cricket insights.</p>
-             <img src='assets/BALL.jpeg' alt='My photo' />
+             <img src={ball} alt='My photo' />
         </div>
         </div>  
        </div>
@@ -27,7 +32,7 @@ function WebDevelopment() {
              It includes interactive dashboards displaying key metrics like total sales, profit margins, and product performance by sub-category and state. 
              The visualizations help identify sales trends, regional strengths, and areas for improvement.
              This empowers stakeholders to make data-driven decisions to boost profitability and optimize inventory.</p>
-             <img src='assets/STORE.png' alt='My photo' />
+             <img src={store} alt='My photo' />
         </div>
         </div>
        </div>
@@ -41,7 +46,7 @@ function WebDevelopment() {
             It translates text input from one language to another accurately and efficiently, supporting multiple language pairs. 
             The system leverages pretrained models and APIs for real-time translation with user-friendly interaction.
              It enables seamless communication across different languages, enhancing accessibility and understanding.</p>
-             <img src='assets/LANG.jpeg' alt='My photo' />
+             <img src={lang} alt='My photo' />
         </div>
         </div>
        </div>
@@ -55,7 +60,7 @@ function WebDevelopment() {
              credit history, and employment details. It involves data preprocessing, feature engineering, and model training to achieve high prediction accuracy.
               The model helps financial institutions automate decision-making and reduce loan default risks. 
               The final system provides a reliable tool for faster and data-driven loan approval assessments.</p>
-             <img src='assets/LOAN.jpeg' alt='My photo' />
+             <img src={loan} alt='My photo' />
         </div>
         </div>
        </div>
@@ -69,7 +74,7 @@ function WebDevelopment() {
              It includes revenue, cost of goods sold, gross profit, operating expenses, and net profit calculations.
               The data is organized and visualized to highlight key financial metrics and trends. 
               This enables business owners and stakeholders to make informed decisions based on profitability and expense management.</p>
-             <img src='assets/P&L.png' alt='My photo' />
+             <img src={pl} alt='My photo' />
         </div>
         </div>
        </div>
