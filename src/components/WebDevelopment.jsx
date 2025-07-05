@@ -3,10 +3,25 @@ import stu from './Assets/STU-TEACH.png';
 import wea from './Assets/WEATHER.png'
 import word from './Assets/WORD.png';
 import rock from './Assets/ROCK.png';
+import loan from './Assets/LOAN.jpeg'
 
 function WebDevelopment() {
   return (
     <div>
+      <div className='pro'>
+        <div className='pro1'>
+        <a href="https://github.com/VenkataSarma/Bank-Loan-Status-Prediction" target="_blank" rel="noopener noreferrer">
+            <h1 className='pro_title'>Bank Loan Status Prediction</h1>
+          </a>
+          <div className='picdes'>
+          <p className='description'>Bank Loan Status Prediction is a web-based machine learning application that predicts loan approval based on user financial details.
+             Built with Python and Streamlit, it uses models like Logistic Regression, Random Forest, SVM, and Gradient Boosting. 
+             The system preprocesses data through scaling, encoding, and handling missing values to ensure accuracy. 
+             It supports both single and batch predictions, offering a user-friendly, interactive tool for real-world loan assessment.</p>
+             <img src={loan} alt='My photo' />
+        </div>
+        </div>
+       </div>
        <div className='pro'>
         <div className='pro1'>
         <a href="https://github.com/VenkataSarma/performance-evaluation.git" target="_blank" rel="noopener noreferrer">
@@ -61,6 +76,7 @@ It offers a simple, responsive, and fun user experience to demonstrate basic Jav
         </div>
         </div>
        </div>
+       
         
     </div>
   );

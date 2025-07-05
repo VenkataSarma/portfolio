@@ -25,7 +25,7 @@ function Intro() {
                 className='btn-1'
                 onClick={() =>
                   window.open(
-                    'https://drive.google.com/file/d/12YXnXmPEbX_12mWiBT8AUipAMsbxTqwQ/view?usp=sharing',
+                    'https://drive.google.com/file/d/1-8CMqhZCp6zXefs3kR_q61XDmGlWd_po/view?usp=sharing',
                     '_blank'
                   )
                 }

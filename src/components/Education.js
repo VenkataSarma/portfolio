@@ -12,7 +12,7 @@ function Education() {
           <h2 className='clg-name'>Malla Reddy Engineering College </h2>
           <h3 className='city'>Hyderabad</h3>
           <h3 className='year'>2022-2026</h3>
-          <h3 className='year'>CGPA:-9.5</h3>
+          <h3 className='year'>CGPA:-9.4</h3>
           
         </div>
         <div className='Tech'>

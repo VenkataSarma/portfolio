@@ -12,6 +12,9 @@ import hacker from './Assets/HACKER.png';
 import simplilearn from './Assets/SIMPLILEARN.png';
 import udemy from './Assets/UDEMY.png';
 import unstop from './Assets/UNSTOP.png';
+import rbi from './Assets/RBI.png';
+import bootcamp from './Assets/BOOTCAMP.jpg';
+import vibe from './Assets/VIBATHON.jpg'
 
 // ✅ Create an array of objects
 const images = [
@@ -26,6 +29,9 @@ const images = [
   { src: simplilearn, alt: 'Simplilearn Certificate' },
   { src: udemy, alt: 'Udemy Certificate' },
   { src: unstop, alt: 'Unstop Certificate' },
+  {src: rbi, alt:"RBI quiz participation certificate"},
+  {src: bootcamp, alt: " Global AI Bootcamp "},
+  {src: vibe, alt:"Vibathon participate certificate"}
 ];
 
 function Certificates() {
