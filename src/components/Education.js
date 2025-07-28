@@ -34,6 +34,7 @@ function Education() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }

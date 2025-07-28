@@ -1,4 +1,5 @@
 import React from 'react';
+import intro from './Assets/PROF.jpg';
 
 function Intro() {
   const scrollToFooter = () => {
@@ -12,7 +13,7 @@ function Intro() {
     <div>
       <div className='Name'>
         <div className='image'>
-          <img src='assets/PROF.jpg' alt='My photo' />
+          <img src={intro} alt='My photo' />
         </div>
         <div className='matter'>
           <p className='p1'> Hello there I'm</p>
