@@ -33,6 +33,7 @@ const skillsCategories = [
       { name: "Pandas", icon: <SiPandas className="skill-icon" /> },
       { name: "Matplotlib", icon: <FaChartLine className="skill-icon" /> },
       { name: "Seaborn", icon: <SiPlotly className="skill-icon" /> },
+      
     ],
   },
   

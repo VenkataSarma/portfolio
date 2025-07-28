@@ -12,8 +12,8 @@ function About() {
         <img src='Assets/VVS.jpg'></img>
       </div>
       <div className='content'>
-      I’m a 3rd-year B.Tech CSE-Data Science student with a passion for uncovering insights from data and building innovative solutions.
-       With experience in data science, web development, and graphic design,I thrive on solving complex challenges.
+      I’m a final year B.Tech CSE-Data Science student with a passion for uncovering insights from data and building innovative solutions.
+       With experience in data science, web development,I thrive on solving complex challenges.
         I aim to grow my technical expertise while contributing to impactful projects.
       </div></div></div>
     </div>

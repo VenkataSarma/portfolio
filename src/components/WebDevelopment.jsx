@@ -3,6 +3,18 @@ import React from 'react';
 function WebDevelopment() {
   return (
     <div>
+      <div className='pro'>
+        <div className='pro1'>
+        <a href="https://github.com/VenkataSarma/cps.git" target="_blank" rel="noopener noreferrer">
+            <h1 className='pro_title'>Masterly- Personalized Learning Platform [MERN Stack]</h1>
+          </a>
+          <div className='picdes'>
+          <p className='description'>Masterly is a personalized learning platform that creates adaptive learning paths based on user progress and performance.
+              It provides AI-driven course recommendations, mastery tracking, and analytics dashboards for learners. The platform ensures competency-based progression and supports effective, self-paced skill development.</p>
+             <img src='assets/EDU.png' alt='My photo' />
+        </div>
+        </div>  
+       </div>
        <div className='pro'>
         <div className='pro1'>
         <a href="https://github.com/VenkataSarma/performance-evaluation.git" target="_blank" rel="noopener noreferrer">

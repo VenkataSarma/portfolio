@@ -200,54 +200,134 @@ header {
 .us{
   padding-bottom: 100px;
 }
-/*------------------------------Education-------------------------*/
-.Tech{
-  padding-top: 100px;
-  border: 3.5px solid black;
-  border-radius: 40px;
-   padding: 30px;
-  position: relative; 
-  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
-}
-.whole{
+/*--------------About me section stylings--------------*/
+.me {
+  font-size: 3rem;
+  padding-top: 40px;
+  padding-bottom: 80px;
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 200px;
-  padding-top: 90px;
+  justify-content: center;
 }
-.degree{
-  font-size: 5rem;
-  font-weight: 600;
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+  align-items: center; /* Ensures content stays aligned */
+  position: relative;
+}
+
+.box img {
+  height: 350px;
+  border-radius: 30px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.box img:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  width: 700px;
+  font-weight: 700;
+  font-size: 28px;
+  padding-top: 50px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  border: 2px solid transparent; /* Initially no border */
+  border-radius: 15px; /* Rounded corners */
+  padding: 60px;
+  height: 350px;
+  position: relative;
+  color: white;
+  backdrop-filter: blur(5px); /* Glass effect */
+  transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect: Blue Border Glow */
+.content:hover {
+  transform: scale(1.05); /* Slight zoom */
+  border: 2px solid rgba(2, 164, 251, 0.988); /* Blue border only */
+  box-shadow: 0 0 12px rgba(2, 164, 251, 0.8); /* Thin blue glow near border */
+}
+
+
+.us {
+  padding-bottom: 100px;
+}
+
+ 
+/*------------------------------Education-------------------------*/
+.education-container {
+  background: #323946; /* Outer box similar to connect-box */
+  padding: 30px 10px; /* Equal padding above and below */
+   border-radius: 10px;
+  max-width: 1400px;
   text-align: center;
-  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+   margin: 40px auto;
   
 }
-.clg-name{
-  font-size: 3.5rem;
+
+.education-title {
+  font-size: 7rem;
+  margin-bottom: 40px; /* Extra spacing below title */
+  text-align: center;
+  color: white;
+}
+
+.whole {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* ✅ Center vertically */
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Tech {
+  background: #1f242d; /* Same as social-link background */
+  border-radius: 8px;
+  padding: 30px;
+  width: 400px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.Tech:hover {
+  background: #555;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.degree {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.clg-name {
+  font-size: 2rem;
   font-weight: 500;
-  text-align: center;
 }
-.city {
-  font-size: 2rem;
-  font-weight: 300;
-  text-align: center;
-}
+
+.city,
 .year {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
-  text-align: center;
 }
-.Tech:hover{
-  border-color: chocolate;
-  transform: scale(1.1);
-   
-} 
+
 /*---------------------Skills--------------------------------*/
 
 
 .title{
   font-size: 3rem;
-  padding-top: 60px;
+  padding-top: 40px;
    
   display: flex;
   justify-content: center;
