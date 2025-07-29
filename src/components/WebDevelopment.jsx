@@ -3,11 +3,25 @@ import stu from './Assets/STU-TEACH.png';
 import wea from './Assets/WEATHER.png'
 import word from './Assets/WORD.png';
 import rock from './Assets/ROCK.png';
-import loan from './Assets/LOAN.jpeg'
+import loan from './Assets/LOAN.jpeg';
+import edu from './Assets/EDU.png';
+
 
 function WebDevelopment() {
   return (
     <div>
+      <div className='pro'>
+        <div className='pro1'>
+        <a href="https://github.com/VenkataSarma/cps.git" target="_blank" rel="noopener noreferrer">
+            <h1 className='pro_title'>Masterly – Personalized Learning Platform</h1>
+          </a>
+          <div className='picdes'>
+          <p className='description'>Masterly is a personalized learning platform that creates adaptive learning paths based on user progress and performance.
+            It provides AI-driven course recommendations, mastery tracking, and analytics dashboards for learners. The platform ensures competency-based progression and supports effective, self-paced skill development.</p>
+             <img src={edu} alt='My photo' />
+        </div>
+        </div>
+       </div>
       <div className='pro'>
         <div className='pro1'>
         <a href="https://github.com/VenkataSarma/Bank-Loan-Status-Prediction" target="_blank" rel="noopener noreferrer">

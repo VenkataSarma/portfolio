@@ -14,7 +14,11 @@ import udemy from './Assets/UDEMY.png';
 import unstop from './Assets/UNSTOP.png';
 import rbi from './Assets/RBI.png';
 import bootcamp from './Assets/BOOTCAMP.jpg';
-import vibe from './Assets/VIBATHON.jpg'
+import vibe from './Assets/VIBATHON.jpg';
+import gfg from './Assets/GFG.png';
+import info from './Assets/INFO.png';
+
+
 
 // ✅ Create an array of objects
 const images = [
@@ -31,7 +35,10 @@ const images = [
   { src: unstop, alt: 'Unstop Certificate' },
   {src: rbi, alt:"RBI quiz participation certificate"},
   {src: bootcamp, alt: " Global AI Bootcamp "},
-  {src: vibe, alt:"Vibathon participate certificate"}
+  {src: vibe, alt:"Vibathon participate certificate"},
+  {src: gfg, alt:"GFG + SALESFORCE workshop"},
+ {src: info, alt:"Infosys AI certificate"}
+
 ];
 
 function Certificates() {

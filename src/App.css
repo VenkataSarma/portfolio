@@ -200,62 +200,60 @@ header {
 .us{
   padding-bottom: 100px;
 }
-/*--------------About me section stylings--------------*/
+ /*--------------About me section stylings--------------*/
 .me {
   font-size: 3rem;
   padding-top: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
+  color: white;
+}
+
+.us {
+  padding-bottom: 80px;
 }
 
 .box {
   display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 100px;
-  align-items: center; /* Ensures content stays aligned */
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* Space between image and text */
+  padding: 20px;
 }
 
 .box img {
   height: 350px;
-  border-radius: 30px;
-  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .box img:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .content {
   width: 700px;
-  font-weight: 700;
-  font-size: 28px;
-  padding-top: 50px;
-  background: rgba(255, 255, 255, 0.1); /* Transparent background */
-  border: 2px solid transparent; /* Initially no border */
-  border-radius: 15px; /* Rounded corners */
-  padding: 60px;
-  height: 350px;
-  position: relative;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.8; /* Better text spacing */
+  text-align: justify; /* Proper alignment */
+  background: rgba(255, 255, 255, 0.08); /* Transparent background */
+  border: 2px solid transparent;
+  border-radius: 15px;
+  padding: 40px;
   color: white;
-  backdrop-filter: blur(5px); /* Glass effect */
+  backdrop-filter: blur(6px); /* Glass effect */
   transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover Effect: Blue Border Glow */
 .content:hover {
-  transform: scale(1.05); /* Slight zoom */
-  border: 2px solid rgba(2, 164, 251, 0.988); /* Blue border only */
-  box-shadow: 0 0 12px rgba(2, 164, 251, 0.8); /* Thin blue glow near border */
+  transform: scale(1.05);
+  border: 2px solid rgba(2, 164, 251, 0.988); /* Blue border */
+  box-shadow: 0 0 15px rgba(2, 164, 251, 0.8); /* Subtle glow */
 }
 
-
-.us {
-  padding-bottom: 100px;
-}
-
- 
 /*------------------------------Education-------------------------*/
 .education-container {
   background: #323946; /* Outer box similar to connect-box */
